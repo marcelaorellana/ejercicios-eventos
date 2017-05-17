@@ -4,10 +4,15 @@ window.onload = function(){
 
 var accion = document.getElementById("demo");
 accion.addEventListener("click", function(){
-	alert("HOLA");
+	alert("¡HOLA MUDO!");
 });
 
 var entrada = document.getElementById("ingresa");
 entrada.addEventListener("mouseover", function(){
-	alert("Estoy sobre");
+	alert("Estás Sobre mi");
+});
+
+var salida = document.getElementById("ingresa");
+salida.addEventListener("mouseout", function(){
+	alert("No estás sobre mi");
 })
